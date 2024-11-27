@@ -1,0 +1,54 @@
+/* ************************* Section Home ************************* */
+
+.home {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.author {
+    align-content: center;
+}
+
+.author-name {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #232;
+    max-width: 450px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.author-desc1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #cdcdcd;
+}
+
+.author-desc2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.75rem;
+    color: #cdcdcd;
+}
+
+.author-img {
+    max-height: 750px;
+    max-width: 325px;
+    padding: 1rem;
+}
+
+/* ************************* Section About Me ************************* */
+
+.body-about {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.body-about > p {
+    max-width: 66%;
+}
